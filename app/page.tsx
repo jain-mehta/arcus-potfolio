@@ -19,8 +19,8 @@ import {
 
 export default function HomePage() {
   const heroRef = useRef<HTMLDivElement>(null)
-  const productsRef = useRef<HTMLElement>(null)
-  const contactRef = useRef<HTMLElement>(null)
+  const productsRef = useRef<HTMLDivElement>(null)
+  const contactRef = useRef<HTMLDivElement>(null)
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
